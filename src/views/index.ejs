@@ -1,0 +1,41 @@
+<%- include('./partials/_header'); %>
+
+    <div class="container">
+        <div class="row">
+            <!-- FORM -->
+            <div class="col-md-5">
+                <div class="card">
+                    <div class="card-body">
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" name="title" placeholder="Insert tittle" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="description" cols="80" class="form-control" placeholder="Insert description"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                Add
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LIST -->
+            <div class="col-md-7">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <th>Nro</th>
+                        <th>Tittle</th>
+                        <th>Description</th>
+                        <th>Operation</th>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <%- include('./partials/_footer'); %>
